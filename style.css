@@ -110,3 +110,48 @@ ul li span{
 ul li span:hover{
     background:#edeef0 ;
 }
+
+/* Desktop view */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Tablet view */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header, .content, .footer {
+        padding: 10px;
+    }
+}
+
+/* Mobile view */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header, .content, .footer {
+        padding: 5px;
+    }
+}
